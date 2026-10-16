@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Fancy Project | Zoe Geyman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">Zoe Geyman<span>.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="croissant-index.html">The Croissant Index</a></li>
+          <li><a href="fancy-project.html" aria-current="page">The Fancy Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero reveal">
+      <div class="feature-panel">
+        <p class="eyebrow" style="position:relative;z-index:1">Featured work</p>
+        <h1 style="position:relative;z-index:1">The Fancy Project</h1>
+        <p class="lede" style="position:relative;z-index:1">One sentence that explains what this project is and why it exists.</p>
+        <p style="position:relative;z-index:1;margin-top:28px;display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn" style="background:var(--paper);color:var(--ink)" href="#">View it live</a>
+          <a class="btn ghost" style="color:var(--paper);border-color:var(--paper)" href="https://github.com/yourusername">Source on GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="grid-3 reveal">
+      <div>
+        <p class="eyebrow">Role</p>
+        <p>What you did on this project.</p>
+      </div>
+      <div>
+        <p class="eyebrow">Timeline</p>
+        <p>Month Year to Month Year</p>
+      </div>
+      <div>
+        <p class="eyebrow">Built with</p>
+        <ul class="tags"><li>Tool</li><li>Tool</li><li>Tool</li></ul>
+      </div>
+    </section>
+
+    <section class="grid-2 reveal" style="align-items:start">
+      <div>
+        <p class="eyebrow">The problem</p>
+        <h2>What needed solving</h2>
+      </div>
+      <div>
+        <p>Set the scene. Who was this for, what was frustrating or missing, and why did it matter to you?</p>
+        <p>A second paragraph can add context, constraints, or what made it tricky.</p>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <p class="eyebrow">The process</p>
+      <h2>How it came together</h2>
+      <ol class="steps">
+        <li><h3>Research</h3><p style="margin:0;color:var(--ink-soft)">What you learned before building anything.</p></li>
+        <li><h3>Design</h3><p style="margin:0;color:var(--ink-soft)">The decisions that shaped the direction.</p></li>
+        <li><h3>Build</h3><p style="margin:0;color:var(--ink-soft)">How you made it real, and what surprised you.</p></li>
+        <li><h3>Launch</h3><p style="margin:0;color:var(--ink-soft)">Where it ended up and how people responded.</p></li>
+      </ol>
+    </section>
+
+    <section class="reveal">
+      <p class="eyebrow">Results</p>
+      <div class="grid-3">
+        <div class="card"><div class="num">00%</div><p>A metric that moved.</p></div>
+        <div class="card"><div class="num">000</div><p>People who used it.</p></div>
+        <div class="card"><div class="num">1</div><p>Lesson you'd pass on.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© <span id="year"></span> Zoe Geyman</span>
+      <span><a href="mailto:zoegeyman@gmail.com">Email</a> · <a href="https://linkedin.com/in/zoegeyman">LinkedIn</a></span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
